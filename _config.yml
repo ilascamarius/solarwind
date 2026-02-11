@@ -1,0 +1,32 @@
+title: "SolarWind"
+description: "Energie verde pentru viitor - SolarWind Romania"
+baseurl: "" # lasă gol dacă repo-ul se numește username.github.io
+url: ""     # va fi completat automat de GitHub Pages
+
+theme: minima   # poți schimba cu orice temă Jekyll compatibilă
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Setări pentru SEO Tag
+seo:
+  type: "website"
+  name: "SolarWind"
+  description: "Instalatii fotovoltaice, energie regenerabila, soluții eficiente"
+  twitter:
+    card: "summary"
+
+# Excludere fișiere inutile
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+
+# Opțional – dacă site-ul este într-un folder /docs:
+# include:
+#   - docs
