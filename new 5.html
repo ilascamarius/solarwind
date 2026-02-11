@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SolarWind - Energie pentru viitor</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* ----------- LOGO SECTION ----------- */
+        .logo-container {
+            background: #ffffff;
+            padding: 15px 25px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #e6e6e6;
+        }
+        .logo-container img {
+            height: 60px;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1600&q=80') center/cover;
+            height: 90vh;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            background: #ffcc00;
+            color: #000;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .feature-box {
+            flex: 1 1 300px;
+            padding: 20px;
+            background: #f7f7f7;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        footer {
+            background: #222;
+            color: #aaa;
+            padding: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- LOGO CONTAINER (fixed) -->
+
+<div class="logo-container">
+    <img src="logowind.jpeg" alt="SolarWind Logo">
+</div>
+
+<header>
+    <div>
+        <h1>SolarWind Romania</h1>
+        <p>Reducerea facturilor la energie cu energie curată și soluții inovative</p>
+        <a href="#contact" class="btn-primary">Cere gratuit o ofertă</a>
+    </div>
+</header>
+
+<section class="section">
+    <h2 style="text-align:center;">De ce să ne alegi pe noi?</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>✔ Instalații profesionale</h3>
+            <p>Inginerii și tehnicienii noștri calificați asigură performanța optimă.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>✔ Facturi mai mici la energie</h3>
+            <p>Sistemele fotovoltaice economisesc energia din prima zi.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>✔ Monitorizare inteligentă</h3>
+            <p>Monitorizează-ți producția și consumul în timp real din aplicația mobilă.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2 style="text-align:center;">Contactează-ne</h2>
+    <p style="text-align:center;">Cere o ofertă personalizată.</p>
+
+    <form style="max-width:500px;margin:auto;">
+        <input type="text" placeholder="Nume" style="width:100%;padding:10px;margin:10px 0;">
+        <input type="email" placeholder="Email" style="width:100%;padding:10px;margin:10px 0;">
+        <input type="text" placeholder="Telefon" style="width:100%;padding:10px;margin:10px 0;">
+        <textarea placeholder="Mesaj" style="width:100%;padding:10px;margin:10px 0;height:130px;"></textarea>
+        <button type="submit" style="width:100%;padding:12px;background:#ffcc00;font-size:1rem;border:none;border-radius:5px;">
+            Trimite
+        </button>
+    </form>
+</section>
+
+<footer>
+    © 2026 SolarWind Romania — Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>
