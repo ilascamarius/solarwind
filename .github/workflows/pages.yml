@@ -2,7 +2,7 @@ name: Build & Deploy Jekyll to GitHub Pages
 
 on:
   push:
-    branches: ["main"]   # schimbă dacă folosești altă ramură
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
