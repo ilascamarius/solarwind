@@ -16,3 +16,6 @@ navbar-links:
   Acasă: /
   Proiecte: /proiecte/
   Contact: /contact/
+
+  include:
+  - assets/css/style.css
