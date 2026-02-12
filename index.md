@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/solarwind/assets/css/style.css">
+
 ---
 layout: default
 title: SolarWind – Panouri Fotovoltaice
@@ -72,6 +74,20 @@ Vezi câteva dintre proiectele noastre finalizate:
 👉 [Proiecte](/solarwind/proiecte/)
 
 ---
+
+## Contact
+<div id="contact"></div>
+
+<form action="https://formsubmit.co/EMAILUL_TAU" method="POST" class="contact-form">
+  <input type="text" name="name" placeholder="Nume complet" required>
+  <input type="email" name="email" placeholder="Adresă email" required>
+  <textarea name="message" placeholder="Mesajul tău" required></textarea>
+  <button type="submit">Trimite mesajul</button>
+
+  <!-- protecție anti-spam -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+</form>
 
 ## 📞 Contact
 Dacă dorești o ofertă sau consultanță personalizată:
