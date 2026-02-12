@@ -1,13 +1,39 @@
 ---
-layout: home   # pentru minima; sau 'default' dacă faci un layout propriu
-title: "Bun venit"
+layout: default
+title: SolarWind – Panouri Fotovoltaice
 ---
 
-# Salut! Eu sunt Marius
+<div style="text-align:center; padding:40px 0;">
+  <h1><strong>SolarWind</strong></h1>
+  <h2>Soluții complete pentru panouri fotovoltaice & automatizări</h2>
+  <p>Consultanță • Proiectare • Instalare • Monitorizare</p>
+</div>
 
-Acesta este landing page-ul meu.  
-Pune aici secțiuni scurte: cine ești, ce faci, link-uri către proiecte, CV, contact etc.
+---
 
-- [Proiecte](#)
-- [LinkedIn](#)
-- [Contact](mailto:adresa@exemplu.com)
+## ✔ Despre SolarWind
+Oferim soluții profesionale pentru sisteme fotovoltaice destinate locuințelor, firmelor și proiectelor industriale. De la consultanță până la instalare și monitorizare — totul într-un singur loc.
+
+---
+
+## ⚡ Servicii
+- Analiză tehnică și audit energetic  
+- Proiectare sisteme fotovoltaice  
+- Instalare panouri și invertori  
+- Automatizări și monitorizare consum  
+- Mentenanță & optimizare  
+
+---
+
+## 🌞 Proiecte recente
+Vezi câteva dintre proiectele noastre finalizate:
+
+👉 [Proiecte](/solarwind/proiecte/)
+
+---
+
+## 📞 Contact
+Dacă dorești o ofertă sau consultanță personalizată:
+
+**✉ contact@solarwind.ro**  
+**📞 +40 7xx xxx xxx**
