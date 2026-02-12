@@ -12,6 +12,33 @@ title: SolarWind – Panouri Fotovoltaice
 </div>
 
 
+## Proiecte realizate
+
+<div class="carousel">
+
+  <input type="radio" name="slides" checked="checked" id="slide1">
+  <input type="radio" name="slides" id="slide2">
+  <input type="radio" name="slides" id="slide3">
+
+  <ul class="carousel__slides">
+    <li class="carousel__slide">
+      <img src="/solarwind/assets/img/p1.jpg" alt="Proiect 1">
+    </li>
+    <li class="carousel__slide">
+      <img src="/solarwind/assets/img/p2.jpg">
+    </li>
+    <li class="carousel__slide">
+      <img src="/solarwind/assets/img/p3.jpg">
+    </li>
+  </ul>
+
+  <ul class="carousel__thumbnails">
+    <li><label for="slide1"><img src="/solarwind/assets/img/p1.jpg"></label></li>
+    <li><label for="slide2"><img src="/solarwind/assets/img/p2.jpg"></label></li>
+    <li><label for="slide3"><img src="/solarwind/assets/img/p3.jpg"></label></li>
+  </ul>
+</div>
+
 ---
 layout: default
 title: SolarWind – Panouri Fotovoltaice
