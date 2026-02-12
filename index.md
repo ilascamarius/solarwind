@@ -24,13 +24,13 @@ title: SolarWind – Panouri Fotovoltaice
 
   <ul class="carousel__slides">
     <li class="carousel__slide">
-      <img src="/solarwind/assets/img/1.jpg" alt="Proiect 1">
+      <img src="/solarwind/assets/img/p1.jpg" alt="Proiect 1">
     </li>
     <li class="carousel__slide">
-      <img src="/solarwind/assets/img/2.png">
+      <img src="/solarwind/assets/img/p2.png">
     </li>
     <li class="carousel__slide">
-      <img src="/solarwind/assets/img/3.jpg">
+      <img src="/solarwind/assets/img/p3.jpg">
     </li>
   </ul>
 
