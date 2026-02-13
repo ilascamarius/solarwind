@@ -2,7 +2,6 @@
 .hero {
   background: url('/solarwind/assets/img/hero.jpg') center/cover no-repeat;
   height: 80vh;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +78,7 @@
 /* CONTACT FORM */
 .contact-form {
   max-width: 450px;
-  margin: 20px auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
 }
