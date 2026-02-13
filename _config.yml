@@ -19,3 +19,4 @@ navbar-links:
 
   include:
   - assets/css/style.css
+  - assets/js/carousel.js
