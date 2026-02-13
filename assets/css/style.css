@@ -1,74 +1,82 @@
-/* HERO */
+/* HERO SECTION */
 .hero {
-  background-image: url('/solarwind/assets/img/hero.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 65vh;
+  background: url('/solarwind/assets/img/hero.jpg') center/cover no-repeat;
+  height: 80vh;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.hero-overlay {
   text-align: center;
-  color: white;
-  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 30px 40px;
+  border-radius: 12px;
 }
 
-.hero-text h1 {
-  font-size: 3rem;
-  text-shadow: 0 3px 10px rgba(0,0,0,0.4);
+.hero-overlay h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
 }
 
-.hero-text p {
-  font-size: 1.3rem;
-  margin-bottom: 20px;
+.hero-overlay p {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
 }
 
-.cta {
+.cta-btn {
   background: #00b050;
-  color: white;
-  padding: 12px 28px;
+  padding: 12px 30px;
   border-radius: 25px;
-  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  background: #009640;
 }
 
 /* CAROUSEL */
-.carousel {
+.carousel-container {
   position: relative;
-  text-align: center;
-  max-width: 850px;
-  margin: 40px auto;
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.carousel__slides {
-  list-style: none;
-  position: relative;
-  padding: 0;
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
-.carousel__slide img {
+.carousel-slide img {
   width: 100%;
   border-radius: 10px;
 }
 
-.carousel__thumbnails {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.carousel__thumbnails img {
-  width: 80px;
-  border-radius: 8px;
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  background: rgba(0,0,0,0.3);
+  color: white;
+  border: none;
+  padding: 5px 12px;
   cursor: pointer;
-  opacity: 0.6;
-  transition: 0.3s;
+  border-radius: 5px;
 }
 
-.carousel__thumbnails img:hover {
-  opacity: 1;
-}
+.prev { left: 10px; }
+.next { right: 10px; }
 
-/* FORMULAR */
+/* CONTACT FORM */
 .contact-form {
   max-width: 450px;
   margin: 20px auto;
