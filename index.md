@@ -34,7 +34,7 @@ Oferim soluții complete pentru sisteme fotovoltaice destinate locuințelor, fir
 <div class="carousel-container">
   <div class="carousel-slide">
     <img src="/solarwind/assets/img/p1.jpg">
-    <img src="/solarwind/assets/img/p2.jpg">
+    <img src="/solarwind/assets/img/p2.png">
     <img src="/solarwind/assets/img/p3.jpg">
   </div>
   <button class="carousel-btn prev">‹</button>
