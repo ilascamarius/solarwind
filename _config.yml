@@ -4,10 +4,10 @@ url: "https://ilascamarius.github.io"
 baseurl: "/solarwind"
 
 theme: null
-#plugins:
- # - jekyll-remote-theme
+plugins:
+  - jekyll-remote-theme
 
-# remote_theme: pages-themes/cayman@v0.2.0
+ remote_theme: pages-themes/cayman@v0.2.0
 
 markdown: kramdown
 
