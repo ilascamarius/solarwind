@@ -34,7 +34,7 @@ Oferim soluții complete pentru sisteme fotovoltaice destinate locuințelor, fir
 <div class="carousel-container">
   <div class="carousel-slide">
     <img src="{{ site.baseurl }}/assets/img/p1.jpg" alt="Proiect fotovoltaic 1" />
-    <img src="{{ site.baseurl }}/assets/img/p2.jpg" alt="Proiect fotovoltaic 2" />
+    <img src="{{ site.baseurl }}/assets/img/p2.png" alt="Proiect fotovoltaic 2" />
     <img src="{{ site.baseurl }}/assets/img/p3.jpg" alt="Proiect fotovoltaic 3" />
   </div>
 
