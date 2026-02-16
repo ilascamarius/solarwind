@@ -1554,6 +1554,13 @@ input, select, textarea {
 			border-radius: 0.5em;
 		}
 
+
+		.brand img {
+  		height: 48px;
+  		display: block;
+		}
+
+
 		.image.featured {
 			display: block;
 			width: 100%;
