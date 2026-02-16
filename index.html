@@ -1,405 +1,284 @@
-<!DOCTYPE HTML>
-<!--
-	Tessellate by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Tessellate by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SolarWind – Proiectare și instalare panouri fotovoltaice</title>
+  <meta name="description" content="SolarWind: proiectare, instalare, mentenanță și automatizare pentru sisteme fotovoltaice rezidențiale, comerciale și industriale." />
+  <link rel="icon" href="/solarwind/images/favicon.png" type="image/png" />
 
-		<!-- Header -->
-			<section id="header" class="dark">
-				<header>
-					<h1>Welcome to Tessellate</h1>
-					<p>A free responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-				</header>
-				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
-				</footer>
-			</section>
+  <!-- Stiluri minime, moderne (fără framework) -->
+  <style>
+    :root{
+      --c1:#0b132b; --c2:#1c2541; --c3:#3a506b; --c4:#00b050; --c5:#f5f7fb;
+      --text:#222; --muted:#6b7280; --white:#fff;
+      --maxw:1100px; --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--white);}
+    a{color:var(--c4);text-decoration:none}
+    img{max-width:100%;display:block}
 
-		<!-- First -->
-			<section id="first" class="main">
-				<header>
-					<div class="container">
-						<h2>Tessellate is a free responsive site template</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style1 featured">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon fa-clock"></span></span>
-									<header>
-										<h3>Gravida</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon solid fa-bolt"></span></span>
-									<header>
-										<h3>Vivamus</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon solid fa-cloud"></span></span>
-									<header>
-										<h3>Accumsan</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-12">
-								<footer>
-									<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
-								</footer>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    /* Header simplu */
+    .nav{
+      position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);
+      backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #eee;
+    }
+    .nav .wrap{
+      max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:16px;
+      padding:10px 16px;
+    }
+    .brand{font-weight:800;letter-spacing:.2px;color:var(--c2)}
+    .nav ul{margin-left:auto;display:flex;gap:18px;list-style:none;padding:0}
+    .nav a:hover{opacity:.8}
 
-		<!-- Second -->
-			<section id="second" class="main">
-				<header>
-					<div class="container">
-						<h2>Euismod sed feugiat lorem tempus magna</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-									tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-									vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-									augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-									lorem ipsum dolor placerat magna tempus feugiat.</p>
-									<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-									euismod lorem ipsum dolor.</p>
-									<footer>
-										<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
-									</footer>
-								</section>
-							</div>
-							<div class="col-8 col-12-narrow">
-								<div class="row">
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    /* Hero */
+    .hero{
+      min-height:68vh;display:grid;place-items:center;text-align:center;color:var(--white);
+      background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.45)),
+                 url('/solarwind/images/hero.jpg') center/cover no-repeat;
+      padding:72px 16px 56px;
+    }
+    .hero h1{font-size:clamp(28px,5.5vw,48px);margin:0 0 10px}
+    .hero p{font-size:clamp(16px,2.8vw,20px);opacity:.95;margin:0 0 22px}
+    .cta{
+      display:inline-block;background:var(--c4);color:var(--white);font-weight:700;
+      padding:12px 22px;border-radius:999px;box-shadow:0 10px 20px rgba(0,176,80,.2);
+    }
 
-		<!-- Third -->
-			<section id="third" class="main">
-				<header>
-					<div class="container">
-						<h2>Ornare varius lorem ipsum ante lectus</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style3">
-					<div class="container">
-						<span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<h3>Diam vivamus turpis lorem sodales lectus ornare</h3>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare varius
-								gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu
-								eget ornare et magna.</p>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia.</p>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui
-								lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc
-								euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
-								cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod
-								est turpis sodales. Diam tempor dui lacinia dolore.</p>
-								<p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida
-								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet
-								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
-								<footer>
-									<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
-								</footer>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    /* Secțiuni */
+    section{padding:64px 16px}
+    .wrap{max-width:var(--maxw);margin:auto}
+    .lead{color:var(--muted);max-width:820px}
 
-		<!-- Basic Elements -->
-		<!--
-			<section class="main">
-				<header>
-					<div class="container">
-						<h2>A Whole Lotta Elements</h2>
-						<p>General purpose elements for every general purpose. Or something like that.</p>
-					</div>
-				</header>
-				<div class="content style1 dark">
-					<div class="container">
-						<section>
-							<header>
-								<h3>Paragraph</h3>
-								<p>This is a byline</p>
-							</header>
-							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-							amet risus elit.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Blockquote</h3>
-							</header>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
-							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-						</section>
-						<section>
-							<header>
-								<h3>Divider</h3>
-							</header>
-							<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-							<hr />
-							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Unordered List</h3>
-							</header>
-							<ul class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ul>
-						</section>
-						<section>
-							<header>
-								<h3>Ordered List</h3>
-							</header>
-							<ol class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ol>
-						</section>
-						<section>
-							<header>
-								<h3>Table</h3>
-							</header>
-							<div class="table-wrapper">
-								<table class="default">
-									<thead>
-										<tr>
-											<th>ID</th>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>00001</td>
-											<td>Lorem ipsum dolor</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00002</td>
-											<td>Sit amet nullam</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00003</td>
-											<td>Feugiat felis viverra</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00004</td>
-											<td>Sagittis enim felis</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00005</td>
-											<td>Nullam sed vestibulum</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="3"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-						<section>
-							<header>
-								<h3>Form</h3>
-							</header>
-							<form method="post" action="#">
-								<div class="row gtr-50">
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="name" id="name" value="" placeholder="John Doe" />
-									</div>
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-									</div>
-									<div class="col-12">
-										<div class="select" tabindex="-1">
-											<select name="department" id="department">
-												<option value="">Choose a department</option>
-												<option value="1">Manufacturing</option>
-												<option value="2">Administration</option>
-												<option value="3">Support</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" class="button" value="Send Message" /></li>
-											<li><input type="reset" class="button alt" value="Clear Form" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-					</div>
-				</div>
-			</section>
-		-->
+    /* Grile */
+    .grid{display:grid;gap:22px}
+    @media(min-width:820px){.grid-2{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:repeat(3,1fr)}}
 
-		<!-- Fourth -->
-			<section id="fourth" class="main">
-				<header>
-					<div class="container">
-						<h2>Sed feugiat ipsum consequat</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content style4 featured">
-					<div class="container medium">
-						<form method="post" action="#">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-								<div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" class="button" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</section>
+    /* Carduri */
+    .card{
+      border:1px solid #eee;border-radius:var(--radius);padding:20px;background:var(--white);
+      box-shadow:0 2px 10px rgba(0,0,0,.03);
+    }
+    .card h3{margin:6px 0 8px}
+    .tag{display:inline-block;font-size:12px;background:#eef7ff;color:#1e3a8a;padding:4px 8px;border-radius:999px}
 
-		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-				</ul>
-				<div class="copyright">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</section>
+    /* Avantaje (icon + text) */
+    .benefit{display:flex;gap:14px;align-items:flex-start}
+    .benefit .icon{
+      width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+      background:#eaf7ef;color:#05603a;font-weight:900;font-size:18px;flex:0 0 38px
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    /* Proiecte (mini galerie) */
+    .gallery{display:grid;gap:16px}
+    @media(min-width:820px){.gallery{grid-template-columns:repeat(3,1fr)}}
+    .gallery .ph{border-radius:12px;overflow:hidden;border:1px solid #eee}
 
-	</body>
+    /* Contact */
+    .contact{
+      background:linear-gradient(180deg, var(--c5), #fff);
+      border-top:1px solid #eee;border-bottom:1px solid #eee
+    }
+    form{display:grid;gap:12px;max-width:560px}
+    input, textarea{
+      padding:12px 14px;border:1px solid #d8dee9;border-radius:10px;font:inherit
+    }
+    button[type=submit]{
+      background:var(--c4);color:#fff;border:0;border-radius:12px;padding:12px 16px;font-weight:700;cursor:pointer
+    }
+    button[type=submit]:hover{filter:brightness(.95)}
 
+    /* Footer */
+    footer{padding:28px 16px;color:#6b7280;font-size:14px;border-top:1px solid #eee;text-align:center}
+
+    /* Secțiuni alternate */
+    .alt{background:#fafbfd}
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="wrap">
+      <div class="brand">SolarWind</div>
+      <ul>
+        <li><a href="#despre">Despre noi</a></li>
+        <li><a href="#servicii">Servicii</a></li>
+        <li><a href="#avantaje">Avantaje</a></li>
+        <li><a href="#proiecte">Proiecte</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap">
+      <h1>Sisteme fotovoltaice proiectate corect, instalate sigur</h1>
+      <p>De la consultanță și proiectare, până la instalare, automatizări și mentenanță – pentru locuințe, companii și industrie.</p>
+      <a class="cta" href="#contact">Solicită o ofertă</a>
+    </div>
+  </header>
+
+  <!-- DESPRE -->
+  <section id="despre">
+    <div class="wrap grid grid-2" style="align-items:center">
+      <div>
+        <h2>Despre SolarWind</h2>
+        <p class="lead">
+          SolarWind este o companie specializată în proiectarea, instalarea și mentenanța sistemelor fotovoltaice.
+          Misiunea noastră este să oferim soluții eficiente, sigure și durabile, care reduc costurile cu energia și cresc independența energetică.
+        </p>
+        <p class="lead">
+          Cu experiență în energii regenerabile și automatizări electrice, acoperim cap‑coadă fluxul unui proiect: consultanță, dimensionare, proiectare, montaj și monitorizare post‑punere în funcțiune.
+        </p>
+        <span class="tag">Consultanță • Proiectare • Instalare • Automatizare • Service</span>
+      </div>
+      <div>
+        <img src="/solarwind/images/despre.jpg" alt="Echipă SolarWind pe șantier, montând panouri" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICII -->
+  <section id="servicii" class="alt">
+    <div class="wrap">
+      <h2>Serviciile noastre</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Proiectare sisteme fotovoltaice</h3>
+          <p>Dimensionare corectă, planuri tehnice și soluții optimizate pentru acoperiș sau sol, cu randament ridicat și conformitate tehnică.</p>
+        </div>
+        <div class="card">
+          <h3>Consultanță & audit energetic</h3>
+          <p>Analizăm consumul, orientarea, umbririle și bugetul pentru a recomanda configurația optimă și un ROI realist.</p>
+        </div>
+        <div class="card">
+          <h3>Instalare & punere în funcțiune</h3>
+          <p>Montaj certificat pentru sisteme on‑grid, off‑grid și hibride, cu echipamente premium și norme de siguranță respectate.</p>
+        </div>
+        <div class="card">
+          <h3>Automatizare & monitorizare</h3>
+          <p>Monitorizare în timp real a producției/consumului și soluții smart pentru prioritizarea surselor și managementul energiei.</p>
+        </div>
+        <div class="card">
+          <h3>Mentenanță & service</h3>
+          <p>Verificări periodice, curățarea panourilor, diagnosticare și intervenții rapide pentru disponibilitate maximă.</p>
+        </div>
+        <div class="card">
+          <h3>Documentație & avizare</h3>
+          <p>Suport în pregătirea documentelor, soluții de racordare și asistență pentru programe de finanțare.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AVANTAJE -->
+  <section id="avantaje">
+    <div class="wrap">
+      <h2>Avantaje</h2>
+      <div class="grid grid-2">
+        <div class="benefit">
+          <div class="icon">🔋</div>
+          <div>
+            <h3>Independență energetică</h3>
+            <p class="lead">Reduci dependența de rețea și te protejezi de creșterile de preț ale energiei.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="icon">💰</div>
+          <div>
+            <h3>Economii reale</h3>
+            <p class="lead">Sistemele bine proiectate își recuperează investiția în câțiva ani, scăzând factura lunară.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="icon">🌱</div>
+          <div>
+            <h3>Sustenabilitate</h3>
+            <p class="lead">Folosim energie curată, reducând emisiile de CO₂ și impactul asupra mediului.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="icon">🛠</div>
+          <div>
+            <h3>Calitate & siguranță</h3>
+            <p class="lead">Echipamente certificate, montaj conform standardelor europene și testări riguroase.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROIECTE -->
+  <section id="proiecte" class="alt">
+    <div class="wrap">
+      <h2>Proiecte recente</h2>
+      <p class="lead">Câteva implementări reprezentative (imagini exemplificative – înlocuiește-le cu proiectele tale):</p>
+      <div class="gallery">
+        <div class="ph"><img src="/solarwind/images/proiect1.jpg" alt="Proiect rezidențial 5 kW - acoperiș înclinat"></div>
+        <div class="ph"><img src="/solarwind/images/proiect2.jpg" alt="Proiect comercial 30 kW - hală industrială"></div>
+        <div class="ph"><img src="/solarwind/images/proiect3.jpg" alt="Proiect hibrid 10 kW cu baterii"></div>
+      </div>
+
+      <div class="grid grid-3" style="margin-top:22px">
+        <div class="card">
+          <strong>🏡 Rezidențial 5 kW</strong>
+          <p>Panouri mono 400 W, invertor on‑grid, structură aluminiu, monitorizare prin aplicație.</p>
+        </div>
+        <div class="card">
+          <strong>🏢 Comercial 30 kW</strong>
+          <p>Invertor trifazic, optimizare producție, protecții conforme, punere în funcțiune & monitorizare.</p>
+        </div>
+        <div class="card">
+          <strong>🔌 Hibrid 10 kW + baterii</strong>
+          <p>Backup în caz de pană, reducere consum noaptea, prioritizare sursă solară.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="wrap grid grid-2" style="align-items:center">
+      <div>
+        <h2>Contact</h2>
+        <p class="lead">Ai nevoie de o evaluare sau ofertă personalizată? Spune-ne câteva detalii și revenim rapid.</p>
+        <ul>
+          <li><strong>Email:</strong> contact@solarwind.ro</li>
+          <li><strong>Telefon:</strong> 07xx xxx xxx</li>
+          <li><strong>Program:</strong> Luni–Vineri, 09:00–17:00</li>
+        </ul>
+      </div>
+      <div>
+        <!-- Înlocuiește EMAILUL_TAU cu adresa ta -->
+        <form action="https://formsubmit.co/EMAILUL_TAU" method="POST">
+          <input type="text" name="name" placeholder="Nume complet" required />
+          <input type="email" name="email" placeholder="Adresă email" required />
+          <input type="tel" name="phone" placeholder="Telefon (opțional)" />
+          <textarea name="message" rows="5" placeholder="Mesajul tău" required></textarea>
+
+          <!-- Opțiuni FormSubmit -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <!-- Redirecționare după trimitere (opțional) -->
+          <!-- <input type="hidden" name="_next" value="https://ilascamarius.github.io/solarwind/thanks.html"> -->
+
+          <button type="submit">Trimite mesajul</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="y"></span> SolarWind • Proiectare, instalare și mentenanță sisteme fotovoltaice
+  </footer>
+
+  <script>
+    // anul curent în footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
-
