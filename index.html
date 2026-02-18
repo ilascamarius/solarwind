@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+  <script>
+  (function () {
+    var redirect = sessionStorage.getItem("redirect");
+    if (redirect) {
+      sessionStorage.removeItem("redirect");
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SolarWind – Proiectare și instalare panouri fotovoltaice</title>
@@ -285,6 +294,7 @@
   </script>
 </body>
 </html>
+
 
 
 
